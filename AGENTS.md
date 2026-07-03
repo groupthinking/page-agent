@@ -15,6 +15,8 @@ Internal packages:
 - **Page Controller** (`packages/page-controller/`) - DOM operations and visual feedback (SimulatorMask), independent of LLM
 - **UI** (`packages/ui/`) - Panel and i18n. Decoupled from PageAgent
 
+**Every package has its own `AGENTS.md`** (e.g. `packages/core/AGENTS.md`) with package-specific responsibilities, boundaries, and conventions. When working inside a package, read and follow its `AGENTS.md` first.
+
 ## Development Commands
 
 ```bash
